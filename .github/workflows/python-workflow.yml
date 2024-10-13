@@ -9,10 +9,8 @@ jobs:
 
     steps:
     - name: checkout repo
-      uses: actions/checkout
-      with:
-        path: main
-
+      uses: actions/checkout@v4
+        
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
